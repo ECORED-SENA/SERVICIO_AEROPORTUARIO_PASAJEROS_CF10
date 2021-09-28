@@ -9,11 +9,15 @@
     figure.mt-4
       img(src="@/assets/template/tema-2-1.png" alt="Texto que describa la imagen")
     .row.mt-5.px-5
-      .col-12.bandera.bg-amarillo-claro.px-5.py-4
+      .col-12.bandera.bg-amarillo-usa.p-5
         figure
           img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
         p.italic Compensations for baggage irregularities are made in order to maintain the loyalty and preference of customers, so the airlines handle compensations according to each particular situation.
-    p.mt-5 Las compensaciones por irregularidades en equipajes se hacen con el fin de mantener la fidelidad y la preferencia de los clientes, por eso las compañías aéreas manejan compensaciones según la novedad que se presente.
+    .row.px-5
+      .col-12.bandera-spain.bg-amarillo-spain.px-5.py-5
+        figure 
+          img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
+        p.mb-0 Las compensaciones por irregularidades en equipajes se hacen con el fin de mantener la fidelidad y la preferencia de los clientes, por eso las compañías aéreas manejan compensaciones según la novedad que se presente.
     p.mt-5 Existen diversos tipos de compensación, como son:
     ol.lista-ol--cuadro.mt-5
       li 
@@ -21,11 +25,15 @@
           span A
         .h4 What you can get from the airline – What you are paid for as compensation // [Lo que puede obtener de la aerolínea – Lo que se le paga como compensación]
     .row.mt-5.px-5
-      .col-12.bandera.bg-amarillo-claro.px-5.py-4
+      .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
           img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
         p.italic Payments made by the airline are under any of the following categories: 
-      p.mt-5 [Los pagos pueden realizarse bajo los siguientes conceptos:] 
+    .row.px-5
+        .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
+          figure 
+            img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
+          p.mb-0  [Los pagos pueden realizarse bajo los siguientes conceptos:] 
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2
         .tabla-a.color-acento-botones.mb-5 
@@ -58,15 +66,15 @@
           .col-12.px-5.py-4
             figure
               img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
-            p It is important to bear in mind that baggage irregularities can occur in the daily operation, therefore, the passenger is entitled to a series of compensations: 
+            p.italic It is important to bear in mind that baggage irregularities can occur in the daily operation, therefore, the passenger is entitled to a series of compensations: 
             ul.lista-ul.mt-3
-              li 
+              li.italic 
                 i.fas.fa-angle-right
                 | In the event that the checked baggage does not arrive on the flight in which the passenger is traveling, the airline must deliver a personal hygiene kit or the cost of it.
-              li.mt-2 
+              li.mt-2.italic 
                 i.fas.fa-angle-right
-                | If the delay is more than 24 hours, the airline must provide the corresponding amount of money so that the tr
-            p.mt-3 Regarding the types of compensation, airlines may vary in the way they pay for them, reaching an agreement with the passenger. The types of compensation are:
+                | If the delay is more than 24 hours, the airline must provide the corresponding amount of money so that the traveler can purchase basic clothing ítems.
+            p.mt-3.italic Regarding the types of compensation, airlines may vary in the way they pay for them, reaching an agreement with the passenger. The types of compensation are:
       
       .col-12.col-lg-6.px-4
         .row.bg-amarillo-claro.h-100
@@ -86,31 +94,43 @@
           img(src="@/assets/template/tema-2-2.png", alt="Texto que describa la imagen").w-50.margin-0-auto
         .h4.mt-4.text-white.text-center EMD // EMD 
         .row.mt-5.px-3
-          .col-12.bandera.bg-morado-25.px-5.py-4
+          .col-12.bandera.bg-morado-25-usa.px-5.py-4
             figure
               img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             p.italic Documents with the value that the passenger can use with the airline.
-          p.mt-3.mb-5 Documentos con el valor que el pasajero puede usar con la aerolínea.
+        .row.px-3.mb-5
+          .col-12.bandera-spain.bg-morado-25-spain.px-5.py-4
+            figure 
+              img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
+            p Documentos con el valor que el pasajero puede usar con la aerolínea.
       .col-12.col-lg-4.bg-acento-botones.zoom-in
         figure.mt-5
           img(src="@/assets/template/tema-2-3.png", alt="Texto que describa la imagen").w-50.margin-0-auto
         .h4.mt-4.text-white.text-center Miles // Millas
         .row.mt-5.px-3
-          .col-12.bandera.bg-morado-25.px-5.py-4
+          .col-12.bandera.bg-morado-25-usa-dark.px-5.py-4
             figure
               img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             p.italic Depending on the frequent flyer program, the airline may offer benefits.
-          p.mt-3.mb-5 Dependiendo del programa de viajero frecuente, la aerolínea puede ofrecer beneficios.
+        .row.px-3.mb-5
+          .col-12.bandera-spain.bg-morado-25-spain-dark.px-5.py-4
+            figure 
+              img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
+            p Dependiendo del programa de viajero frecuente, la aerolínea puede ofrecer beneficios.
       .col-12.col-lg-4.bg-acento-contenido.rounded-20-top-right.rounded-20-bot-right.zoom-in
         figure.mt-5
           img(src="@/assets/template/tema-2-4.png", alt="Texto que describa la imagen").w-50.margin-0-auto
         .h4.mt-4.text-white.text-center Cash // Efectivo
         .row.mt-5.px-3
-          .col-12.bandera.bg-morado-25.px-5.py-4
+          .col-12.bandera.bg-morado-25-usa.px-5.py-4
             figure
               img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
-            p.italic local currency
-          p.mt-5.mb-5 Moneda local
+            p.italic In cash or local currency
+        .row.px-3.mb-5
+          .col-12.bandera-spain.bg-morado-25-spain.px-5.py-4
+            figure 
+              img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
+            p En efectivo o moneda local
     ol.lista-ol--cuadro.mt-5
       li 
         .lista-ol--cuadro__vineta.secundario
@@ -119,11 +139,15 @@
     .row.mt-5
       .col-12.col-lg-10
         .row.px-5
-          .col-12.bandera.bg-amarillo-claro.px-5.py-4
+          .col-12.bandera.bg-amarillo-usa.px-5.py-4
             figure
               img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             p.italic Explore the following dialogue with the help of a good dictionary. Pay special attention to the way a baggage agent assists a traveler whose suitcase is missing. 
-          p.mt-4 Explore el siguiente diálogo con la ayuda de un buen diccionario. Preste especial atención a la forma en que un agente de equipaje ayuda a un viajero al que le falta una maleta
+        .row.px-5
+          .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
+            figure 
+              img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
+            p.mb-0  Explore el siguiente diálogo con la ayuda de un buen diccionario. Preste especial atención a la forma en que un agente de equipaje ayuda a un viajero al que le falta una maleta
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-2-5.svg")
@@ -138,11 +162,15 @@
     .row.mt-5
       .col-12.col-lg-10
         .row.px-5
-          .col-12.bandera.bg-amarillo-claro.px-5.py-4
+          .col-12.bandera.bg-amarillo-usa.px-5.py-4
             figure
               img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             p.italic The use of a dictionary, look up any words or phrases you do not know in the dialogue above. Here are some of them. 
-          p.mt-4 Y el uso de un diccionario, busque los términos y expresiones desconocidas en el diálogo anterior. Aquí hay algunos de ellos.]
+        .row.px-5
+          .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
+            figure 
+              img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
+            p.mb-0  Y el uso de un diccionario, busque los términos y expresiones desconocidas en el diálogo anterior. Aquí hay algunos de ellos.]
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-2-6.svg")
@@ -158,31 +186,31 @@
               ul.lista-ul.mt-3
                 li 
                   i.fas.fa-angle-right
-                  | Luggage sticker // [Sticker del equipaje]
+                  | <em>Luggage sticker</em> // [Sticker del equipaje]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | A business meeting // [Una reunión de negocios]
+                  | <em>A business meeting</em> // [Una reunión de negocios]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | Which one looks most like yours? // [¿Cuál se parece más a la suya?]
+                  | <em>Which one looks most like yours?</em> // [¿Cuál se parece más a la suya?]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | The airline will reimburse you for any clothing you buy. // [La aerolínea le reembolsará la ropa que compre.]
+                  | <em>The airline will reimburse you for any clothing you buy.</em> // [La aerolínea le reembolsará la ropa que compre.]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | the airline will deliver it to your hotel // [la aerolínea se la llevará hasta su hotel]
+                  | <em>The airline will deliver it to your hotel</em> // [la aerolínea se la llevará hasta su hotel]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | track down the suitcase // [rastrear la maleta]
+                  | <em>Track down the suitcase</em> // [rastrear la maleta]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | as quickly as we can // [tan rápido como podamos]
+                  | <em>As quickly as we can</em> // [tan rápido como podamos]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | to file a claim for any necessary items you buy // [hacer un reclamo por cualquier artículo necesario que compre]
+                  | <em>To file a claim for any necessary items you buy</em> // [hacer un reclamo por cualquier artículo necesario que compre]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | My guess is that your suitcase might arrive on the next flight // [Supongo que su maleta podría llegar en el próximo vuelo] 
+                  | <em>My guess is that your suitcase might arrive on the next flight</em> // [Supongo que su maleta podría llegar en el próximo vuelo] 
 
 
 </template>

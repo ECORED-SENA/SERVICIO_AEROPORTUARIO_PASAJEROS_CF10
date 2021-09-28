@@ -170,40 +170,110 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
-        centro:
-          'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        nombre: 'Maria Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
       },
     ],
     contenidoInstruccional: [
       {
-        nombre: 'Claudia Marcela Ávila Ramírez',
-        cargo: 'Experto Temático',
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Regional Distrito Capital – Centro Nacional de Hotelería, Turismo y Alimentos',
-      },
-      {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
-        centro: 'Regional Distrito Capital – Centro de Diseño y metrología',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
         nombre: 'Yoao Salazar De La Cruz',
-        cargo: 'Instructor Bilingüismo',
-        centro: 'Regional Atlántico - Centro Industrial y de Aviación',
+        cargo: 'Intructor bilingüismo',
+        centro: 'Centro Industrial y de Aviación - Regional Atlántico',
+      },
+      {
+        nombre: 'Claudia Marcela Ávila Ramírez',
+        cargo: 'Experta temática',
+        centro:
+          'Centro Nacional de Hotelería, Turismo y Alimentos - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Gloria Amparo López Escudero',
+        cargo: 'Diseñadora instruccional ',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Correción de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
     ],
     desarrolloProducto: [
       {
-        nombre: 'Gloria Amparo López Escudero',
-        cargo: 'Diseñadora Instruccional ',
-        centro: 'Regional Distrito Capital - Centro de Gestión Industrial ',
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: 'Darío González',
-        cargo: 'Corrección de estilo',
-        centro: 'Regional Tolima – Centro Agropecuario La Granja',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Sarmiento',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Yenny Patricia Ulloa Villamizar',
+        cargo: 'Validación de diseño y contenio',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
     ],
     gestoresRepositorio: [
