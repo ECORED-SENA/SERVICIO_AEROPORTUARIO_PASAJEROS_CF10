@@ -177,10 +177,7 @@
     .row.mt-5
       .bloque-texto-a.color-primario.p-4.p-md-4.mb-5 
         .row.m-0.align-items-center.justify-content-between
-          .col-lg-4.mb-4.mb-lg-0
-            figure
-              img(src="@/assets/template/tema-2-7.svg").floating
-          .col-lg-8
+          .col-lg-12
             .bloque-texto-a__texto.p-4
               .h4 <em>My suitcase never arrived on the baggage carousel</em> // [Mi maleta nunca llegó a la cinta transportadora de equipaje] 
               ul.lista-ul.mt-3
