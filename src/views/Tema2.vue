@@ -186,31 +186,31 @@
               ul.lista-ul.mt-3
                 li 
                   i.fas.fa-angle-right
-                  | <em>Luggage sticker</em>// [Sticker del equipaje]
+                  | <em>Luggage sticker</em> // [Sticker del equipaje]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>A business meeting</em>// [Una reunión de negocios]
+                  | <em>A business meeting</em> // [Una reunión de negocios]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>Which one looks most like yours?</em>//[¿Cuál se parece más a la suya?]
+                  | <em>Which one looks most like yours?</em> // [¿Cuál se parece más a la suya?]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>The airline will reimburse you for any clothing you buy.</em>//[La aerolínea le reembolsará la ropa que compre.]
+                  | <em>The airline will reimburse you for any clothing you buy.</em> // [La aerolínea le reembolsará la ropa que compre.]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>The airline will deliver it to your hotel</em>//[la aerolínea se la llevará hasta su hotel]
+                  | <em>The airline will deliver it to your hotel</em> // [la aerolínea se la llevará hasta su hotel]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>Track down the suitcase</em>//[rastrear la maleta]
+                  | <em>Track down the suitcase</em> // [rastrear la maleta]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>As quickly as we can</em>//[tan rápido como podamos]
+                  | <em>As quickly as we can</em> // [tan rápido como podamos]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>To file a claim for any necessary items you buy</em>//[hacer un reclamo por cualquier artículo necesario que compre]
+                  | <em>To file a claim for any necessary items you buy</em> // [hacer un reclamo por cualquier artículo necesario que compre]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>My guess is that your suitcase might arrive on the next flight</em>// [Supongo que su maleta podría llegar en el próximo vuelo] 
+                  | <em>My guess is that your suitcase might arrive on the next flight</em> // [Supongo que su maleta podría llegar en el próximo vuelo] 
 
 
 </template>
