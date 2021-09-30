@@ -60,7 +60,14 @@ export default {
         numero: '3',
         titulo: 'Mercancías peligrosas',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Características de las mercancías peligrosas',
+            hash: 't_3_1',
+          },
+        ],
       },
     ],
     subMenu: [

@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 3
-      h1 Dangerous goods // Mercancías peligrosas
+      h1 <em>Dangerous goods</em> // Mercancías peligrosas
     figure
       img(src="@/assets/template/tema-3-1.png")
     .row.mt-5
@@ -24,19 +24,19 @@
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-3-2.svg").w-75.margin-0-auto
-    .h4.mt-5 prohibited items in luggage // [objetos prohibidos en el equipaje]
-    .h4.mt-5 in warehouse // [en bodega]
+    .h4.mt-5 <em>prohibited items in luggage</em> // [objetos prohibidos en el equipaje]
+    .h4.mt-5 <em>in warehouse</em> // [en bodega]
     .row.mt-5
       .col-10.offset-1
         figure
           img(src="@/assets/template/tema-3-3.png")
-    .h4.mt-5 in hand // [de mano]
+    .h4.mt-5 <em>in hand</em> // [de mano]
     .row.mt-5
       .col-6.offset-1
         figure
           img(src="@/assets/template/tema-3-4.png")
     .titulo-segundo.mt-5
-      #t_3_1.h4 3.1	Dangerous goods characteristics  // Características de las mercancías peligrosas
+      #t_3_1.h4 3.1	<em>Dangerous goods characteristics</em>  // Características de las mercancías peligrosas
     .row.mt-5
       .col-12.col-lg-7
         .row.px-4
@@ -56,7 +56,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span a
-        .h4 Dangerous goods classes // [Clases de mercancías peligrosas]
+        .h4 <em>Dangerous goods classes</em> // [Clases de mercancías peligrosas]
     .row.mt-5
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -144,7 +144,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span b
-        .h4 Dangerous goods diamond signs // [Señales con forma de rombo para mercancías peligrosas]
+        .h4 <em>Dangerous goods diamond signs</em> // [Señales con forma de rombo para mercancías peligrosas]
     .row.mt-5
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -163,7 +163,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span c
-        .h4 No dangerous goods on the aircraft // [No se permiten mercancías peligrosas en la aeronave]
+        .h4 <em>No dangerous goods on the aircraft</em> // [No se permiten mercancías peligrosas en la aeronave]
     .row.mt-5
       .col-12.col-lg-7
         .row.px-4
@@ -183,10 +183,10 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span d
-        .h4 Items that need special treatment or appropriate packaging // [Elementos que necesitan un tratamiento especial o embalaje apropiado]
+        .h4 <em>Items that need special treatment or appropriate packaging</em> // [Elementos que necesitan un tratamiento especial o embalaje apropiado]
     figure.mt-5
       img(src="@/assets/template/tema-3-8.png", alt="Texto que describa la imagen")
-    p.mt-5 Some of such items can be: // [Algunos de tales productos pueden ser:]
+    p.mt-5 <em>Some of such items can be:</em> // [Algunos de tales productos pueden ser:]
     .row.mt-5
       .col-12.bandera.bg-amarillo-claro.px-5.py-4
         figure

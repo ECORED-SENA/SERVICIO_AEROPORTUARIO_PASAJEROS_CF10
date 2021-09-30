@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 2
-      h1 Baggage compensation // Compensaciones de equipaje 
+      h1 <em>Baggage compensation</em> // Compensaciones de equipaje 
     figure.mt-4
       img(src="@/assets/template/tema-2-1.png" alt="Texto que describa la imagen")
     .row.mt-5.px-5
@@ -23,7 +23,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span A
-        .h4 What you can get from the airline – What you are paid for as compensation // [Lo que puede obtener de la aerolínea – Lo que se le paga como compensación]
+        .h4 <em>What you can get from the airline – What you are paid for as compensation</em> // [Lo que puede obtener de la aerolínea – Lo que se le paga como compensación]
     .row.mt-5.px-5
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -41,25 +41,25 @@
             thead
               tr.bg-acento-botones.text-white.text-center
                 th.py-3 
-                  .h4 Compensation payments / Pagos
+                  .h4 <em>Compensation payments</em> / Pagos
                 th 
-                  .h4 Definition / Definición
+                  .h4 <em>Definition</em> / Definición
             tbody
               tr.bg-gris-claro
-                td.text-center.py-4 A -ADVANCE
-                td Expenses for the bare essentials you need // Gastos de primera necesidad
+                td.text-center.py-4.italic A -ADVANCE
+                td <em>Expenses for the bare essentials you need</em> // Gastos de primera necesidad
               tr
-                td.text-center.py-4 D-DELIVERY
-                td Transport or delivery costs / Pagos de transporte o envío a domicilio 
+                td.text-center.py-4.italic D-DELIVERY
+                td <em>Transport or delivery costs</em> / Pagos de transporte o envío a domicilio 
               tr.bg-gris-claro
-                td.text-center.py-4 I-INSURANCE
-                td Insurance costs / Pagos de seguros
+                td.text-center.py-4.italic I-INSURANCE
+                td <em>Insurance costs</em> / Pagos de seguros
               tr
-                td.text-center.py-4 X-OTHER
-                td Payments in EMD or MILES / Pagos en EMD o MILLAS
+                td.text-center.py-4.italic X-OTHER
+                td <em>Payments in EMD or MILES</em> / Pagos en EMD o MILLAS
               tr.bg-gris-claro
-                td.text-center.py-4 F-FINAL
-                td Final compensation / Compensación Final
+                td.text-center.py-4.italic F-FINAL
+                td <em>Final compensation</em> / Compensación Final
     .row.mt-5
       .col-12.col-lg-6.px-4
         .row.bandera.bg-amarillo-claro.h-100
@@ -106,7 +106,7 @@
       .col-12.col-lg-4.bg-acento-botones.zoom-in
         figure.mt-5
           img(src="@/assets/template/tema-2-3.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-        .h4.mt-4.text-white.text-center Miles // Millas
+        .h4.mt-4.text-white.text-center <em>Miles</em> // Millas
         .row.mt-5.px-3
           .col-12.bandera.bg-morado-25-usa-dark.px-5.py-4
             figure
@@ -120,7 +120,7 @@
       .col-12.col-lg-4.bg-acento-contenido.rounded-20-top-right.rounded-20-bot-right.zoom-in
         figure.mt-5
           img(src="@/assets/template/tema-2-4.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-        .h4.mt-4.text-white.text-center Cash // Efectivo
+        .h4.mt-4.text-white.text-center <em>Cash</em> // Efectivo
         .row.mt-5.px-3
           .col-12.bandera.bg-morado-25-usa.px-5.py-4
             figure
@@ -135,7 +135,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span B
-        .h4 Delayed or missing luggage? // ¿Equipaje retrasado o perdido?
+        .h4 <em>Delayed or missing luggage?</em> // ¿Equipaje retrasado o perdido?
     .row.mt-5
       .col-12.col-lg-10
         .row.px-5
@@ -158,7 +158,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span C
-        .h4 With the help of your tutor and  // Con la ayuda de su tutor 
+        .h4 <em>With the help of your tutor and</em>  // Con la ayuda de su tutor 
     .row.mt-5
       .col-12.col-lg-10
         .row.px-5
@@ -182,35 +182,35 @@
               img(src="@/assets/template/tema-2-7.svg").floating
           .col-lg-8
             .bloque-texto-a__texto.p-4
-              .h4 My suitcase never arrived on the baggage carousel // [Mi maleta nunca llegó a la cinta transportadora de equipaje] 
+              .h4 <em>My suitcase never arrived on the baggage carousel</em> // [Mi maleta nunca llegó a la cinta transportadora de equipaje] 
               ul.lista-ul.mt-3
                 li 
                   i.fas.fa-angle-right
-                  | <em>Luggage sticker</em> // [Sticker del equipaje]
+                  | <em>Luggage sticker</em>// [Sticker del equipaje]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>A business meeting</em> // [Una reunión de negocios]
+                  | <em>A business meeting</em>// [Una reunión de negocios]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>Which one looks most like yours?</em> // [¿Cuál se parece más a la suya?]
+                  | <em>Which one looks most like yours?</em>//[¿Cuál se parece más a la suya?]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>The airline will reimburse you for any clothing you buy.</em> // [La aerolínea le reembolsará la ropa que compre.]
+                  | <em>The airline will reimburse you for any clothing you buy.</em>//[La aerolínea le reembolsará la ropa que compre.]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>The airline will deliver it to your hotel</em> // [la aerolínea se la llevará hasta su hotel]
+                  | <em>The airline will deliver it to your hotel</em>//[la aerolínea se la llevará hasta su hotel]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>Track down the suitcase</em> // [rastrear la maleta]
+                  | <em>Track down the suitcase</em>//[rastrear la maleta]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>As quickly as we can</em> // [tan rápido como podamos]
+                  | <em>As quickly as we can</em>//[tan rápido como podamos]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>To file a claim for any necessary items you buy</em> // [hacer un reclamo por cualquier artículo necesario que compre]
+                  | <em>To file a claim for any necessary items you buy</em>//[hacer un reclamo por cualquier artículo necesario que compre]
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>My guess is that your suitcase might arrive on the next flight</em> // [Supongo que su maleta podría llegar en el próximo vuelo] 
+                  | <em>My guess is that your suitcase might arrive on the next flight</em>// [Supongo que su maleta podría llegar en el próximo vuelo] 
 
 
 </template>

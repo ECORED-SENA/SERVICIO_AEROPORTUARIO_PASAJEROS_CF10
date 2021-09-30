@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 	Baggage overview // Generalidades del equipaje
+      h1 	<em>Baggage overview</em> // Generalidades del equipaje
     .row.mt-5
       .col-12.col-lg-9
         .row
@@ -26,10 +26,10 @@
         thead
           tr
             th.py-1 
-              .h4 Checked or Registered Baggage 
+              .h4.italic Checked or Registered Baggage 
               .h4 // El equipaje documentado o registrado
             th 
-              .h4 Hand Luggage or Cabin Baggage 
+              .h4.italic Hand Luggage or Cabin Baggage 
               .h4 // El equipaje de mano o de cabina
         tbody
           tr
@@ -68,7 +68,7 @@
                     img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
                   p.mb-0  El que viaja con el pasajero en la cabina del avión. Normalmente, es el equipaje con las cosas personales del viajero, y está bajo su responsabilidad.
     .titulo-segundo.mt-5
-      #t_1_1.h4 1.1	Description of the procedures in the baggage area // Descripción del procedimiento en el área de equipaje
+      #t_1_1.h4 1.1	<em>Description of the procedures in the baggage area</em> // Descripción del procedimiento en el área de equipaje
     figure.mt-5
       img(src="@/assets/template/tema-1-6.png", alt="Texto que describa la imagen")
     .row.mt-5 
@@ -85,7 +85,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span a
-        .h4 Activities performed during the baggage area procedures // [Actividades realizadas durante los procedimientos del área de equipaje]
+        .h4 <em>Activities performed during the baggage area procedures</em> // [Actividades realizadas durante los procedimientos del área de equipaje]
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -241,7 +241,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span b
-        .h4 Work areas and work areas preparation // [Áreas de trabajo y alistamiento de las áreas de trabajo] 
+        .h4 <em>Work areas and work areas preparation</em> // [Áreas de trabajo y alistamiento de las áreas de trabajo] 
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -253,7 +253,7 @@
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
         p.mb-0  [Para estar listos para la operación, se debe realizar una sesión informativa para que el personal se entere de las últimas actualizaciones, así como de las posiciones que se necesita cubrir para el manejo del equipaje durante el turno, como se observa a continuación:] 
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-morado-claro")
-      .row(titulo="Storage // Almacenamiento ")
+      .row(titulo="<em>Storage</em> // Almacenamiento ")
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-1-7.png", alt="Texto que describa la imagen")
@@ -268,7 +268,7 @@
               figure 
                 img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
               p.mb-0 Es un proceso logístico mediante el cual se guarda o se ubica un objeto o artículo dentro de un área específica, para mantener el control y el orden dentro de los procedimientos estándar. 
-      div(titulo="Baggage Storage Facility // Bodega ").row
+      div(titulo="<em>Baggage Storage Facility</em> // Bodega ").row
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-1-8.png", alt="Texto que describa la imagen")
@@ -283,7 +283,7 @@
               figure 
                 img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
               p.mb-0 Es un espacio destinado bajo ciertas condiciones para el almacenamiento de distintos bienes y/o artículos de los pasajeros.
-      div(titulo="Baggage Storage Center // Bodega Central de Equipajes").row
+      div(titulo="<em>Baggage Storage Center</em> // Bodega Central de Equipajes").row
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-1-8.png", alt="Texto que describa la imagen")
@@ -298,7 +298,7 @@
               figure 
                 img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
               p.mb-0 Se identifica como el área encargada de administrar y controlar la información de irregularidades de equipaje a nivel sistema, controla los indicadores de las métricas y administra proyectos de mejora continua para el área de equipajes, brinda información estratégica para la toma de decisiones a nivel empresa. Se conoce también como equipaje centralizado.
-    .h4.mt-5 Preparing the work areas // [Alistando las áreas de trabajo]
+    .h4.mt-5 <em>Preparing the work areas</em> // [Alistando las áreas de trabajo]
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -312,7 +312,7 @@
     .row.mt-5
       .col-12.col-lg-6
         LineaTiempoD.color-primario
-          .row(numero="a" titulo="Delayed baggage").bandera.italic
+          .row(numero="a" titulo="<em>Delayed baggage</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -321,7 +321,7 @@
                   img(src="@/assets/template/tema-1-9.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p It is the baggage that should have arrived together with the traveler, but for reasons beyond their control, arrives at a later time.
-          .row(numero="b" titulo="Rush baggage numbers").bandera.italic
+          .row(numero="b" titulo="<em>Rush baggage numbers</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -330,7 +330,7 @@
                   img(src="@/assets/template/tema-1-10.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p Baggage tags that indicate top priority in their shipment
-          .row(numero="c" titulo="Weight and type of baggage").bandera.italic
+          .row(numero="c" titulo="<em>Weight and type of baggage</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -339,7 +339,7 @@
                   img(src="@/assets/template/tema-1-11.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p According to its type and weight, as well as the airline’s policies, it is determined whether it is carry-on or checked baggage.
-          .row(numero="d" titulo="Baggage destination ").bandera.italic
+          .row(numero="d" titulo="<em>Baggage destination</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -348,7 +348,7 @@
                   img(src="@/assets/template/tema-1-12.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p (with its flight numbers)
-          .row(numero="e" titulo="Reasons").bandera.italic
+          .row(numero="e" titulo="<em>Reasons</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -357,7 +357,7 @@
                   img(src="@/assets/template/tema-1-13.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p for the delays
-          .row(numero="f" titulo="Name of the person ").bandera.italic
+          .row(numero="f" titulo="<em>Name of the person</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -366,7 +366,7 @@
                   img(src="@/assets/template/tema-1-14.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p requesting the baggage
-          .row(numero="g" titulo="Baggage transfer ").bandera.italic
+          .row(numero="g" titulo="<em>Baggage transfer</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -375,7 +375,7 @@
                   img(src="@/assets/template/tema-1-15.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p to other airlines
-          .row(numero="h" titulo="Amount of lost baggage").bandera.italic
+          .row(numero="h" titulo="<em>Amount of lost baggage</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -384,7 +384,7 @@
                   img(src="@/assets/template/tema-1-16.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p 
-          .row(numero="i" titulo="Claims for ").bandera.italic
+          .row(numero="i" titulo="<em>Claims for</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -393,7 +393,7 @@
                   img(src="@/assets/template/tema-1-17.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p damaged baggage
-          .row(numero="j" titulo="Documents").bandera.italic
+          .row(numero="j" titulo="<em>Documents</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -402,7 +402,7 @@
                   img(src="@/assets/template/tema-1-18.svg", alt="Texto que describa la imagen").position-relative.w-100
               .col-9
                 p to fill out for baggage problems
-          .row(numero="k" titulo="The elements and work equipment required, such as").bandera.italic
+          .row(numero="k" titulo="<em>The elements and work equipment required, such as</em>").bandera.italic
             figure 
                 img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
             .row.my-3
@@ -535,7 +535,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span c
-        .h4 Baggage sorting, tracking, and documenting // [Selección, rastreo y documentación del área de equipajes]
+        .h4 <em>Baggage sorting, tracking, and documenting</em> // [Selección, rastreo y documentación del área de equipajes]
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -547,7 +547,7 @@
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
         p.mb-0 [Los servicios de manejo de equipaje consisten en una serie de actividades como: selección, rastreo y documentación del área de equipajes, como se observa a continuación:]
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-morado-claro")
-      .row(titulo="Baggage sorting // Selección de equipaje ")
+      .row(titulo="<em>Baggage sorting</em> // Selección de equipaje ")
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-1-20.png", alt="Texto que describa la imagen")
@@ -560,19 +560,19 @@
               ul.lista-ul.mt-4
                 li 
                   i.fas.fa-angle-right
-                  | The sorting area is the reception area once the suitcase has been checked.
+                  | <em>The sorting area is the reception area once the suitcase has been checked.</em>
                 li.mt-2 
                   i.fas.fa-angle-right
-                  | Classification according to the flight´s destinations is carried out when luggage travels in connection.
+                  | <em>Classification according to the flight´s destinations is carried out when luggage travels in connection.</em>
                 li.mt-2 
                   i.fas.fa-angle-right
-                  | Information is collected on all baggage movements at air terminals.
+                  | <em>Information is collected on all baggage movements at air terminals.</em>
                 li.mt-2 
                   i.fas.fa-angle-right
-                  | The sorting area is the gateway to travelers; it must be guaranteed that the information provided is reliable, secure and timely.
+                  | <em>The sorting area is the gateway to travelers; it must be guaranteed that the information provided is reliable, secure and timely.</em>
                 li.mt-2 
                   i.fas.fa-angle-right
-                  | Security processes are performed.
+                  | <em>Security processes are performed.</em>
           .row.px-5
             .col-12.bandera-spain.bg-morado-spain-bgclaro.px-5.py-4
               figure 
@@ -595,7 +595,7 @@
                   i.fas.fa-angle-right
                   | Se realizan los procesos de seguridad.
 
-      div(titulo="Tracking //Rastreo ").row
+      div(titulo="<em>Tracking</em> //Rastreo ").row
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-1-21.png", alt="Texto que describa la imagen")
@@ -613,7 +613,7 @@
               p  Es el proceso de búsqueda de los equipajes perdidos que, por diferentes motivos, se han quedado en la ciudad de origen o han sido enviados a otros destinos.
               p.mt-3 Para poder rastrear equipajes extraviados y brindar una información precisa a otras bases para la identificación de los equipajes que van quedando rezagados en otros aeropuertos, se deben solicitar especificaciones al pasajero por medio de una herramienta de ayuda como el documento ID CHART (tabla de identificación de equipajes, diseñada por la IATA para facilitar la identificación del equipaje).
 
-      div(titulo="Baggage area documents // Documentos del área de equipajes").row
+      div(titulo="<em>Baggage area documents</em> // Documentos del área de equipajes").row
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/template/tema-1-22.png", alt="Texto que describa la imagen")
@@ -626,13 +626,13 @@
               ul.lista-ul.mt-4
                 li 
                   i.fas.fa-angle-right
-                  | Reports documenting eventualities with baggage (delays, damages, pilferage, etc.) 
+                  | <em>Reports documenting eventualities with baggage (delays, damages, pilferage, etc.)</em>
                 li.mt-2 
                   i.fas.fa-angle-right
-                  | Indicators and measurements for baggage handling and continuous improvement plans.
+                  | <em>Indicators and measurements for baggage handling and continuous improvement plans.</em>
                 li.mt-2 
                   i.fas.fa-angle-right
-                  | Passenger Declaration Forms for baggage damage evidenced by airline staff.
+                  | <em>Passenger Declaration Forms for baggage damage evidenced by airline staff.</em>
           .row.px-5
             .col-12.bandera-spain.bg-morado-spain-bgclaro.px-5.py-4
               figure 
@@ -649,7 +649,7 @@
                   i.fas.fa-angle-right
                   | Formatos de Declaración de Pasajeros por afectaciones de equipajes evidenciadas por el personal de la aerolínea.
     .titulo-segundo.mt-5
-      #t_1_2.h4 1.2	Baggage characteristics // 	Características del equipaje
+      #t_1_2.h4 1.2	<em>Baggage characteristics</em> // 	Características del equipaje
     figure.mt-5 
       img(src="@/assets/template/tema-1-23.png", alt="Texto que describa la imagen")
     .row.mt-5 
@@ -678,7 +678,7 @@
                     span Descargar
                     i.fas.fa-file-download
     .titulo-segundo.mt-5
-      #t_1_3.h4 1.3	Information recording in the baggage system // 	Registro de la información en el sistema de equipajes
+      #t_1_3.h4 1.3	<em>Information recording in the baggage system</em> // 	Registro de la información en el sistema de equipajes
     figure.mt-4
       img(src="@/assets/template/tema-1-25.png")
     .row.mt-5 
@@ -697,7 +697,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span A
-        .h4 World Tracer System – Basic Concepts // [Generalidades del Sistema World Tracer]
+        .h4 <em>World Tracer System – Basic Concepts</em> // [Generalidades del Sistema World Tracer]
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -714,7 +714,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span B
-        .h4 Help // [Ayuda]
+        .h4 <em>Help</em> // [Ayuda]
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -725,7 +725,7 @@
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
         p.mb-0  [En #[strong WTR], hay varias formas de acceder a la ayuda que el sistema ofrece. Se puede hacer de las siguientes formas:] 
-    .h4.mt-5 From a mask // Desde una máscara 
+    .h4.mt-5 <em>From a mask</em> // Desde una máscara 
     .row.mt-5
       .col-10.col-lg-10.offset-1.offset-lg-1.borde-4-gris.rounded-20
         .row
@@ -797,7 +797,7 @@
                 figure 
                   img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
                 p.mb-0 Tras consultar lo necesario, vuelva a la máscara escribiendo #[strong WM RF].
-    .h4.mt-5 On an empty screen // En una pantalla vacía 
+    .h4.mt-5 <em>On an empty screen</em> // En una pantalla vacía 
     
 
     .row.mt-5
@@ -906,7 +906,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span C
-        .h4 Active files // [Vida activa de los expedientes]
+        .h4 <em>Active files</em> // [Vida activa de los expedientes]
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -951,7 +951,7 @@
           li 
             .lista-ol--cuadro__vineta.secundario
               span D
-            .h4 Identification elements // [Elementos de identificación]
+            .h4 <em>Identification elements</em> // [Elementos de identificación]
         .row.mt-5 
           .col-12.bandera.bg-amarillo-usa.px-5.py-4
             figure
@@ -983,7 +983,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span E
-        .h4 Property Irregularity Report (PIR) // [Formulario de irregularidades de equipaje]
+        .h4 <em>Property Irregularity Report (PIR)</em> // [Formulario de irregularidades de equipaje]
     .row.mt-5.bg-azul-claro
       .col-12.col-lg-9
         .row.mt-5.px-5
@@ -1017,9 +1017,16 @@
 </template>
 
 <script>
+import SlyderB from '@/components/SlyderB.vue'
+import AcordionA from '@/components/AcordionA.vue'
+import LineaTiempoD from '@/components/LineaTiempoD.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: {
+    SlyderB,
+    AcordionA,
+    LineaTiempoD,
+  },
   data: () => ({
     overFlag: '',
     mostrarIndicador: true,
@@ -1027,46 +1034,47 @@ export default {
     modal2: false,
     datosSlyder: [
       {
-        titulo: 'AHL (Advise if Hold) // AHL (Avisar si espera) ',
+        titulo: '<em>AHL (Advise if Hold)</em> // AHL (Avisar si espera) ',
         texto:
-          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.6482c74e.svg" alt="Bandera USA"></figure><p class="italic">It is a search file. Many call it a claim. It can be said that the AHL is created when the passenger has not received the suitcase.</p></div> <br><br> Es un expediente de búsqueda. Muchos lo llaman reclamo. Básicamente, se puede decir que el AHL se crea cuando al pasajero no le ha llegado la maleta.',
+          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.636daab5.svg" alt="Bandera USA"></figure><p class="italic">It is a search file. Many call it a claim. It can be said that the AHL is created when the passenger has not received the suitcase.</p></div> <br><br> Es un expediente de búsqueda. Muchos lo llaman reclamo. Básicamente, se puede decir que el AHL se crea cuando al pasajero no le ha llegado la maleta.',
         imagen: require('@/assets/template/tema-1-26.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo:
-          'OHD (On Hand Request / On-hand Bag File) // OHD (Solicitud disponible / Archivo de maleta disponible)',
+          '<em>OHD (On Hand Request / On-hand Bag File)</em> // OHD (Solicitud disponible / Archivo de maleta disponible)',
         texto:
-          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.6482c74e.svg" alt="Bandera USA"></figure><p class="italic">It is a spare suitcase. You have a suitcase but no passenger. This can be due to several factors that will be seen later.</p></div> <br> <br> Es una maleta sobrante. Se tiene una maleta pero no pasajero. Esto se puede deber a varios factores que se verán más adelante. ',
+          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.636daab5.svg" alt="Bandera USA"></figure><p class="italic">It is a spare suitcase. You have a suitcase but no passenger. This can be due to several factors that will be seen later.</p></div> <br> <br> Es una maleta sobrante. Se tiene una maleta pero no pasajero. Esto se puede deber a varios factores que se verán más adelante. ',
         imagen: require('@/assets/template/tema-1-27.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo:
-          'DPR (Damage and Pilferage Report) // DPR (Informe de daños y hurto) ',
+          '<em>DPR (Damage and Pilferage Report)</em> // DPR (Informe de daños y hurto) ',
         texto:
-          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.6482c74e.svg" alt="Bandera USA"></figure><p class="italic">It is a suitcase breakage file. During handling, suitcases may suffer breakages, some of which are covered by the company, others not. When creating a file for which the company is responsible, it is called DPR.</p></div><br> <br> Es un expediente por rotura de maleta. Durante su manipulación, las maletas pueden sufrir roturas, algunas de las cuales son cubiertas por la compañía, mientras que otras no. Al crear un expediente del cual la compañía se hace responsable, se llama DPR.',
+          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.636daab5.svg" alt="Bandera USA"></figure><p class="italic">It is a suitcase breakage file. During handling, suitcases may suffer breakages, some of which are covered by the company, others not. When creating a file for which the company is responsible, it is called DPR.</p></div><br> <br> Es un expediente por rotura de maleta. Durante su manipulación, las maletas pueden sufrir roturas, algunas de las cuales son cubiertas por la compañía, mientras que otras no. Al crear un expediente del cual la compañía se hace responsable, se llama DPR.',
         imagen: require('@/assets/template/tema-1-28.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'QOH (Quick On Hand) // QOH (Rápido disponible) ',
+        titulo: '<em>QOH (Quick On Hand)</em> // QOH (Rápido disponible) ',
         texto:
-          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.6482c74e.svg" alt="Bandera USA"></figure><p class="italic">It is a “quick OHD” created from the luggage left over from a flight. It only lasts 24 hours and it is registered with the billing tag.</p></div><br> <br> Es un “OHD rápido”. Se crea para las maletas sobrantes de un vuelo, sólo dura 24 horas y se registra con la etiqueta de facturación.',
+          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.636daab5.svg" alt="Bandera USA"></figure><p class="italic">It is a “quick OHD” created from the luggage left over from a flight. It only lasts 24 hours and it is registered with the billing tag.</p></div><br> <br> Es un “OHD rápido”. Se crea para las maletas sobrantes de un vuelo, sólo dura 24 horas y se registra con la etiqueta de facturación.',
         imagen: require('@/assets/template/tema-1-29.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'FWD (Forwarding Messages) // FWD (Reenvío de mensajes) ',
+        titulo:
+          '<em>FWD (Forwarding Messages)</em> // FWD (Reenvío de mensajes) ',
         texto:
-          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.6482c74e.svg" alt="Bandera USA"></figure><p class="italic">It is a message created in the system for the shipment of one or more suitcases.</p></div>  <br> <br> Es un mensaje que se crea en sistema de un envío de una o varias maletas.',
+          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.636daab5.svg" alt="Bandera USA"></figure><p class="italic">It is a message created in the system for the shipment of one or more suitcases.</p></div>  <br> <br> Es un mensaje que se crea en sistema de un envío de una o varias maletas.',
         imagen: require('@/assets/template/tema-1-30.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'RFP // RFP',
         texto:
-          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.6482c74e.svg" alt="Bandera USA"></figure><p class="italic">It is a record of objects left on the plane by passengers.</p></div> <br> <br> Es un registro de objetos dejados en el avión por pasajeros. ',
+          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.636daab5.svg" alt="Bandera USA"></figure><p class="italic">It is a record of objects left on the plane by passengers.</p></div> <br> <br> Es un registro de objetos dejados en el avión por pasajeros. ',
         imagen: require('@/assets/template/tema-1-31.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

@@ -14,8 +14,8 @@
       .col-12.bandera.bg-amarillo-usa.p-5
         figure 
           img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
-        p Baggage handling is essential in the travel process. This, in turn, brings with it several processes and procedures that must be taken into account in the daily operation of an air terminal. The security, not only of the airport but also of the flight, will depend on the handling that is given to both passengers and luggage. Particular attention should be paid to the content that will get on board the aircraft.
-        p.mt-3.mb-0 The flight process has several phases as it has already been seen. However, baggage handling is one of the most important for completing a smooth cycle. It must be kept in mind that baggage handling involves several processes so that the client has a safe, pleasant and smooth trip. The goal is that the passenger’s perception of the service offered by the airline will not be affected negatively.
+        p.italic Baggage handling is essential in the travel process. This, in turn, brings with it several processes and procedures that must be taken into account in the daily operation of an air terminal. The security, not only of the airport but also of the flight, will depend on the handling that is given to both passengers and luggage. Particular attention should be paid to the content that will get on board the aircraft.
+        p.mt-3.mb-0.italic The flight process has several phases as it has already been seen. However, baggage handling is one of the most important for completing a smooth cycle. It must be kept in mind that baggage handling involves several processes so that the client has a safe, pleasant and smooth trip. The goal is that the passenger’s perception of the service offered by the airline will not be affected negatively.
     .row
       .col-12.col-lg-9.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
