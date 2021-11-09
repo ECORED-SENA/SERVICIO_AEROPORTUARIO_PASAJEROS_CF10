@@ -235,31 +235,37 @@ export default {
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Daniela Muñoz Bedoya',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Laura Gisselle Murcia Pardo',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'María Carolina Tamayo Lopez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
