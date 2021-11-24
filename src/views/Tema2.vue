@@ -23,7 +23,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span A
-        .h4 <em>What you can get from the airline – What you are paid for as compensation</em> // [Lo que puede obtener de la aerolínea – Lo que se le paga como compensación]
+        .h4 <em>What you can get from the airline – What you are paid for as compensation</em> // Lo que puede obtener de la aerolínea – Lo que se le paga como compensación
     .row.mt-5.px-5
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -33,7 +33,7 @@
         .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
           figure 
             img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-          p.mb-0  [Los pagos pueden realizarse bajo los siguientes conceptos:] 
+          p.mb-0  Los pagos pueden realizarse bajo los siguientes conceptos:
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2
         .tabla-a.color-acento-botones.mb-5 
@@ -170,7 +170,7 @@
           .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
             figure 
               img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-            p.mb-0  Y el uso de un diccionario, busque los términos y expresiones desconocidas en el diálogo anterior. Aquí hay algunos de ellos.]
+            p.mb-0  Y el uso de un diccionario, busque los términos y expresiones desconocidas en el diálogo anterior. Aquí hay algunos de ellos.
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-2-6.svg")
@@ -179,35 +179,35 @@
         .row.m-0.align-items-center.justify-content-between
           .col-lg-12
             .bloque-texto-a__texto.p-4
-              .h4 <em>My suitcase never arrived on the baggage carousel</em> // [Mi maleta nunca llegó a la cinta transportadora de equipaje] 
+              .h4 <em>My suitcase never arrived on the baggage carousel</em> // Mi maleta nunca llegó a la cinta transportadora de equipaje
               ul.lista-ul.mt-3
                 li 
                   i.fas.fa-angle-right
-                  | <em>Luggage sticker</em> // [Sticker del equipaje]
+                  | <em>Luggage sticker</em> // Sticker del equipaje
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>A business meeting</em> // [Una reunión de negocios]
+                  | <em>A business meeting</em> // Una reunión de negocios
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>Which one looks most like yours?</em> // [¿Cuál se parece más a la suya?]
+                  | <em>Which one looks most like yours?</em> // ¿Cuál se parece más a la suya?
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>The airline will reimburse you for any clothing you buy.</em> // [La aerolínea le reembolsará la ropa que compre.]
+                  | <em>The airline will reimburse you for any clothing you buy.</em> // La aerolínea le reembolsará la ropa que compre.
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>The airline will deliver it to your hotel</em> // [la aerolínea se la llevará hasta su hotel]
+                  | <em>The airline will deliver it to your hotel</em> // la aerolínea se la llevará hasta su hotel
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>Track down the suitcase</em> // [rastrear la maleta]
+                  | <em>Track down the suitcase</em> // rastrear la maleta
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>As quickly as we can</em> // [tan rápido como podamos]
+                  | <em>As quickly as we can</em> // tan rápido como podamos
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>To file a claim for any necessary items you buy</em> // [hacer un reclamo por cualquier artículo necesario que compre]
+                  | <em>To file a claim for any necessary items you buy</em> // hacer un reclamo por cualquier artículo necesario que compre
                 li.mt-2  
                   i.fas.fa-angle-right
-                  | <em>My guess is that your suitcase might arrive on the next flight</em> // [Supongo que su maleta podría llegar en el próximo vuelo] 
+                  | <em>My guess is that your suitcase might arrive on the next flight</em> // Supongo que su maleta podría llegar en el próximo vuelo
 
 
 </template>

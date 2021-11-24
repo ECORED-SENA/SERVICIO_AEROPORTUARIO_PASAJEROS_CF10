@@ -191,7 +191,7 @@ export default {
       },
       {
         nombre: 'Yoao Salazar De La Cruz',
-        cargo: 'Intructor bilingüismo',
+        cargo: 'Instructor bilingüismo',
         centro: 'Centro Industrial y de Aviación - Regional Atlántico',
       },
       {

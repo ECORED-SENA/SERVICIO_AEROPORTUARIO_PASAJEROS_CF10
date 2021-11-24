@@ -24,13 +24,13 @@
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-3-2.svg").w-75.margin-0-auto
-    .h4.mt-5 <em>prohibited items in luggage</em> // [objetos prohibidos en el equipaje]
-    .h4.mt-5 <em>in warehouse</em> // [en bodega]
+    .h4.mt-5 <em>Prohibited items in luggage</em> // PObjetos prohibidos en el equipaje
+    .h4.mt-5 <em>In warehouse</em> // En bodega
     .row.mt-5
       .col-10.offset-1
         figure
           img(src="@/assets/template/tema-3-3.png")
-    .h4.mt-5 <em>in hand</em> // [de mano]
+    .h4.mt-5 <em>In hand</em> // De mano
     .row.mt-5
       .col-6.offset-1
         figure
@@ -56,7 +56,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span a
-        .h4 <em>Dangerous goods classes</em> // [Clases de mercancías peligrosas]
+        .h4 <em>Dangerous goods classes</em> // Clases de mercancías peligrosas
     .row.mt-5
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -66,7 +66,7 @@
       .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-        p.mb-0 [Las mercancías peligrosas se clasifican en nueve clases de peligro que describen diferentes tipos de riesgos.]
+        p.mb-0 Las mercancías peligrosas se clasifican en nueve clases de peligro que describen diferentes tipos de riesgos.
     .row.mt-5
       .col-12
         .tabla-a.color-secundario.mb-5 
@@ -144,7 +144,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span b
-        .h4 <em>Dangerous goods diamond signs</em> // [Señales con forma de rombo para mercancías peligrosas]
+        .h4 <em>Dangerous goods diamond signs</em> // Señales con forma de rombo para mercancías peligrosas
     .row.mt-5
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -154,7 +154,7 @@
       .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-        p.mb-0 [Las etiquetas con forma de rombo para las mercancías peligrosas se utilizan en embalajes donde se transportan o pueden almacenarse mercancías peligrosas.]
+        p.mb-0 Las etiquetas con forma de rombo para las mercancías peligrosas se utilizan en embalajes donde se transportan o pueden almacenarse mercancías peligrosas.]
     .row.mt-5
       .col-10.offset-1
         figure
@@ -163,7 +163,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span c
-        .h4 <em>No dangerous goods on the aircraft</em> // [No se permiten mercancías peligrosas en la aeronave]
+        .h4 <em>No dangerous goods on the aircraft</em> // No se permiten mercancías peligrosas en la aeronave
     .row.mt-5
       .col-12.col-lg-7
         .row.px-4
@@ -175,7 +175,7 @@
           .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
             figure 
               img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-            p.mb-0  [Muchos artículos comunes que se usan todos los días en el hogar o en el lugar de trabajo pueden parecer inofensivos. Sin embargo, cuando se transportan en avión, pueden ser muy peligrosos. Durante el vuelo, las variaciones de temperatura y de presión pueden hacer que los elementos goteen, generen humo tóxico o inicien un incendio.]
+            p.mb-0  Muchos artículos comunes que se usan todos los días en el hogar o en el lugar de trabajo pueden parecer inofensivos. Sin embargo, cuando se transportan en avión, pueden ser muy peligrosos. Durante el vuelo, las variaciones de temperatura y de presión pueden hacer que los elementos goteen, generen humo tóxico o inicien un incendio.
       .col-4.col-lg-5.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-3-7.png")
@@ -183,20 +183,20 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span d
-        .h4 <em>Items that need special treatment or appropriate packaging</em> // [Elementos que necesitan un tratamiento especial o embalaje apropiado]
+        .h4 <em>Items that need special treatment or appropriate packaging</em> // Elementos que necesitan un tratamiento especial o embalaje apropiado
     figure.mt-5
       img(src="@/assets/template/tema-3-8.png", alt="Texto que describa la imagen")
-    p.mt-5 <em>Some of such items can be:</em> // [Algunos de tales productos pueden ser:]
+    p.mt-5 <em>Some of such items can be:</em> // Algunos de tales productos pueden ser:
     .row.mt-5
       .col-12.bandera.bg-amarillo-claro.px-5.py-4
         figure
           img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
-        p.italic There are elements in aviation that, although they are not considered dangerous goods, must have a special handling in the packaging so that they do not represent a risk for the flight. Some of such products may be:
+        p.italic There are elements in aviation that, although they are not considered dangerous goods, must have a special handling in the packaging so that they do not represent a risk for the flight.
     .row
       .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-        p.mb-0 [Existen en aviación elementos que, si bien no son considerados mercancías peligrosas, deben tener un manejo especial en el embalaje para que así no representen un riesgo para el vuelo.]
+        p.mb-0 Existen en aviación elementos que, si bien no son considerados mercancías peligrosas, deben tener un manejo especial en el embalaje para que así no representen un riesgo para el vuelo.
     .row.mt-5
       .col-10.offset-1
         .tarjeta.bg-amarillo-deg.p-3.mb-5

@@ -17,7 +17,7 @@
           .col-12.bandera-spain.bg-amarillo-spain.px-5.py-5
             figure 
               img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-            p.mb-0 Al hablar de equipaje, es indispensable hablar de una serie de características principales para el manejo de éste. Para iniciar, es importante tener en cuenta los tipos de equipaje. Son básicamente dos:
+            p.mb-0 Al hablar de equipaje, es indispensable hablar de una serie de características principales para el manejo de este. Para iniciar, es importante tener en cuenta los tipos de equipaje. Son básicamente dos:
       .col-4.col-lg-3.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-1-1.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
@@ -85,7 +85,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span a
-        .h4 <em>Activities performed during the baggage area procedures</em> // [Actividades realizadas durante los procedimientos del área de equipaje]
+        .h4 <em>Activities performed during the baggage area procedures</em> // Actividades realizadas durante los procedimientos del área de equipaje
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -95,7 +95,7 @@
       .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-        p.mb-0  [El área de equipaje está a cargo de actividades como las siguientes:]
+        p.mb-0  El área de equipaje está a cargo de actividades como las siguientes:
     .row.mt-5
       .col-12.col-lg-6.bg-amarillo-claro.zoom-in
         .row 
@@ -109,7 +109,7 @@
             ul.lista-ul.mt-4
               li 
                 i.fas.fa-angle-right
-                | <em>INumber of flights to be assisted during the day.</em>
+                | <em>Number of flights to be assisted during the day.</em>
               li.mt-2 
                 i.fas.fa-angle-right
                 | <em>Flight close-out times.</em>
@@ -241,7 +241,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span b
-        .h4 <em>Work areas and work areas preparation</em> // [Áreas de trabajo y alistamiento de las áreas de trabajo] 
+        .h4 <em>Work areas and work areas preparation</em> // Áreas de trabajo y alistamiento de las áreas de trabajo]
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -251,7 +251,7 @@
       .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-        p.mb-0  [Para estar listos para la operación, se debe realizar una sesión informativa para que el personal se entere de las últimas actualizaciones, así como de las posiciones que se necesita cubrir para el manejo del equipaje durante el turno, como se observa a continuación:] 
+        p.mb-0  Para estar listos para la operación, se debe realizar una sesión informativa para que el personal se entere de las últimas actualizaciones, así como de las posiciones que se necesita cubrir para el manejo del equipaje durante el turno, como se observa a continuación:
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-morado-claro")
       .row(titulo="<em>Storage</em> // Almacenamiento ")
         .col-4.offset-4.offset-lg-0
@@ -298,7 +298,7 @@
               figure 
                 img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
               p.mb-0 Se identifica como el área encargada de administrar y controlar la información de irregularidades de equipaje a nivel sistema, controla los indicadores de las métricas y administra proyectos de mejora continua para el área de equipajes, brinda información estratégica para la toma de decisiones a nivel empresa. Se conoce también como equipaje centralizado.
-    .h4.mt-5 <em>Preparing the work areas</em> // [Alistando las áreas de trabajo]
+    .h4.mt-5 <em>Preparing the work areas</em> // Alistando las áreas de trabajo
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -535,7 +535,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span c
-        .h4 <em>Baggage sorting, tracking, and documenting</em> // [Selección, rastreo y documentación del área de equipajes]
+        .h4 <em>Baggage sorting, tracking, and documenting</em> // Selección, rastreo y documentación del área de equipajes
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -545,7 +545,7 @@
       .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-        p.mb-0 [Los servicios de manejo de equipaje consisten en una serie de actividades como: selección, rastreo y documentación del área de equipajes, como se observa a continuación:]
+        p.mb-0 Los servicios de manejo de equipaje consisten en una serie de actividades como: selección, rastreo y documentación del área de equipajes, como se observa a continuación:
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-morado-claro")
       .row(titulo="<em>Baggage sorting</em> // Selección de equipaje ")
         .col-4.offset-4.offset-lg-0
@@ -563,7 +563,7 @@
                   | <em>The sorting area is the reception area once the suitcase has been checked.</em>
                 li.mt-2 
                   i.fas.fa-angle-right
-                  | <em>Classification according to the flight´s destinations is carried out when luggage travels in connection.</em>
+                  | <em>Classification according to the flight's destinations is carried out when luggage travels in connection.</em>
                 li.mt-2 
                   i.fas.fa-angle-right
                   | <em>Information is collected on all baggage movements at air terminals.</em>
@@ -697,7 +697,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span A
-        .h4 <em>World Tracer System – Basic Concepts</em> // [Generalidades del Sistema World Tracer]
+        .h4 <em>World Tracer System – Basic Concepts</em> // Generalidades del Sistema World Tracer
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -707,14 +707,14 @@
       .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-        p.mb-0  [Los que están familiarizados con los departamentos de equipajes saben que, realmente, sólo hay que saber diferenciar seis cosas: AHL, OHD, DPR, QOH, FWD y RFP. El resto son sólo cosas adicionales que hacen referencia a cambios, envíos, etc.] 
+        p.mb-0  Los que están familiarizados con los departamentos de equipajes saben que, realmente, solo hay que saber diferenciar seis cosas: AHL, OHD, DPR, QOH, FWD y RFP. El resto son solo cosas adicionales que hacen referencia a cambios, envíos, etc.
     p.mt-4 A continuación, revise los diversos registros:
     SlyderB.mt-5(:datos="datosSlyder")
     ol.lista-ol--cuadro.mt-5
       li 
         .lista-ol--cuadro__vineta.secundario
           span B
-        .h4 <em>Help</em> // [Ayuda]
+        .h4 <em>Help</em> // Ayuda
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -724,7 +724,7 @@
       .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-        p.mb-0  [En #[strong WTR], hay varias formas de acceder a la ayuda que el sistema ofrece. Se puede hacer de las siguientes formas:] 
+        p.mb-0  En #[strong WTR], hay varias formas de acceder a la ayuda que el sistema ofrece. Se puede hacer de las siguientes formas:
     .h4.mt-5 <em>From a mask</em> // Desde una máscara 
     .row.mt-5
       .col-10.col-lg-10.offset-1.offset-lg-1.borde-4-gris.rounded-20
@@ -862,7 +862,7 @@
           .col-12.bandera.bg-amarillo-usa.px-5.py-4
             figure
               img(src="@/assets/template/escudo-usa.svg" alt="Bandera USA")
-              p.italic Write #[strong WM HELP] and then the transaction that you want to consult, in this case it would be #[strong WM HELP AHL] . Once consulted, the screen is simply cleared.
+              p.italic Write #[strong WM HELP] and then the transaction that you want to consult, in this case it would be #[strong WM HELP AHL]. Once consulted, the screen is simply cleared.
       .col-6.col-lg-3.px-4
         .row.bandera.bg-amarillo-usa.h-100          
           .col-12.px-5.py-4  
@@ -906,7 +906,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span C
-        .h4 <em>Active files</em> // [Vida activa de los expedientes]
+        .h4 <em>Active files</em> // Vida activa de los expedientes
     .row.mt-5 
       .col-12.bandera.bg-amarillo-usa.px-5.py-4
         figure
@@ -916,7 +916,7 @@
       .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
         figure 
           img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-        p.mb-0  [En WTR, hay una base de datos activa y otra inactiva. La activa es la que se usa todos los días y desde allí se pueden visualizar los expedientes, hacerles cambios y cerrarlos fácilmente. Para poder ver los expedientes de las bases de datos inactivas se requieren permisos especiales. La vida de un expediente en la base de datos activa es:]
+        p.mb-0  En WTR, hay una base de datos activa y otra inactiva. La activa es la que se usa todos los días y desde allí se pueden visualizar los expedientes, hacerles cambios y cerrarlos fácilmente. Para poder ver los expedientes de las bases de datos inactivas se requieren permisos especiales. La vida de un expediente en la base de datos activa es:
     .row.mt-5
       .col-12.col-lg-8
         .row.mt-5 
@@ -951,7 +951,7 @@
           li 
             .lista-ol--cuadro__vineta.secundario
               span D
-            .h4 <em>Identification elements</em> // [Elementos de identificación]
+            .h4 <em>Identification elements</em> // Elementos de identificación
         .row.mt-5 
           .col-12.bandera.bg-amarillo-usa.px-5.py-4
             figure
@@ -962,8 +962,8 @@
           .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
             figure 
               img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-            p.mb-0 Un expediente consiste en varios elementos que se estructuran de diferentes formas para reflejar toda la información de las maletas y del pasajero. Conviene aprendérselos para así poder usarlos correctamente. Hay elementos que son #[strong match] y otros que sólo son informativos. Los elementos #[strong match] son con los que WTR hace búsqueda para poder localizar la maleta o al pasajero, y los elementos informativos representan información para el funcionario de la aerolínea: información sobre el pasajero o sobre diferentes situaciones o eventos producidos, etc. Algunos campos se usan exclusivamente para AHL u OHD, mientras que otros se usan para todos, incluso los DPR. En muchos casos, para obtener la información, se debe preguntar al pasajero y en otras, dicha información se encuentra en la documentación.
-            p.mt-3 Cuando se añade un campo en un expediente, éste se pone al principio de la línea o con un punto (.) adelante. Si no se hace esto, el sistema dará un mensaje de error o puede que no se añada la información que se quiere. 
+            p.mb-0 Un expediente consiste en varios elementos que se estructuran de diferentes formas para reflejar toda la información de las maletas y del pasajero. Conviene aprendérselos para así poder usarlos correctamente. Hay elementos que son #[strong match] y otros que solo son informativos. Los elementos #[strong match] son con los que WTR hace búsqueda para poder localizar la maleta o al pasajero, y los elementos informativos representan información para el funcionario de la aerolínea: información sobre el pasajero o sobre diferentes situaciones o eventos producidos, etc. Algunos campos se usan exclusivamente para AHL u OHD, mientras que otros se usan para todos, incluso los DPR. En muchos casos, para obtener la información, se debe preguntar al pasajero y en otras, dicha información se encuentra en la documentación.
+            p.mt-3 Cuando se añade un campo en un expediente, este se pone al principio de la línea o con un punto (.) adelante. Si no se hace esto, el sistema dará un mensaje de error o puede que no se añada la información que se quiere. 
     .row.mt-5
       .col-10.offset-1
         .tarjeta.bg-amarillo-deg.p-3.mb-5
@@ -983,7 +983,7 @@
       li 
         .lista-ol--cuadro__vineta.secundario
           span E
-        .h4 <em>Property Irregularity Report (PIR)</em> // [Formulario de irregularidades de equipaje]
+        .h4 <em>Property Irregularity Report (PIR)</em> // Formulario de irregularidades de equipaje
     .row.mt-5.bg-azul-claro
       .col-12.col-lg-9
         .row.mt-5.px-5
@@ -995,7 +995,7 @@
           .col-12.bandera-spain.bg-amarillo-spain.px-5.py-4
             figure 
               img(src="@/assets/template/escudo-spain.svg" alt="Bandera ESPAÑOL")
-            p.mb-0 [Las compañías aéreas, en el área de equipajes, deben manejar formatos para los reclamos de los pasajeros que tienen que ver con irregularidades en los equipajes. Estos formatos deben tener ciertas características para un mejor seguimiento de las novedades.]
+            p.mb-0 Las compañías aéreas, en el área de equipajes, deben manejar formatos para los reclamos de los pasajeros que tienen que ver con irregularidades en los equipajes. Estos formatos deben tener ciertas características para un mejor seguimiento de las novedades.
       .col-4.col-lg-3.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-1-42.svg", alt="Texto que describa la imagen")
@@ -1059,7 +1059,7 @@ export default {
       {
         titulo: '<em>QOH (Quick On Hand)</em> // QOH (Rápido disponible) ',
         texto:
-          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.636daab5.svg" alt="Bandera USA"></figure><p class="italic">It is a “quick OHD” created from the luggage left over from a flight. It only lasts 24 hours and it is registered with the billing tag.</p></div><br> <br> Es un “OHD rápido”. Se crea para las maletas sobrantes de un vuelo, sólo dura 24 horas y se registra con la etiqueta de facturación.',
+          '<div class="col-12 bandera bg-amarillo-claro px-5 py-4"><figure><img src="img/escudo-usa.636daab5.svg" alt="Bandera USA"></figure><p class="italic">It is a “quick OHD” created from the luggage left over from a flight. It only lasts 24 hours and it is registered with the billing tag.</p></div><br> <br> Es un “OHD rápido”. Se crea para las maletas sobrantes de un vuelo, solo dura 24 horas y se registra con la etiqueta de facturación.',
         imagen: require('@/assets/template/tema-1-29.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
