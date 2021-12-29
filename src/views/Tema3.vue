@@ -24,7 +24,7 @@
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-3-2.svg").w-75.margin-0-auto
-    .h4.mt-5 <em>Prohibited items in luggage</em> // PObjetos prohibidos en el equipaje
+    .h4.mt-5 <em>Prohibited items in luggage</em> // Objetos prohibidos en el equipaje
     .h4.mt-5 <em>In warehouse</em> // En bodega
     .row.mt-5
       .col-10.offset-1
